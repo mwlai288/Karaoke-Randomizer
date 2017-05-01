@@ -6,22 +6,31 @@
 <script type="text/javascript" src="main.js"></script>
 </head>
 
+<div class="cover">
+<img src="http://i.imgur.com/yXTnZXC.jpg">
+</div>
+
 <body>
+<div class="firstpicture">
   <h1>Number of Singers</h1>
-  <input type="button" value="clickity click" onclick="pickANumber();"/>
+  <input type="button" value="Clickity Click" onclick="pickANumber();"/>
   <div id="thisType"></div>
+</div>
+
+<h2>Who Will Be Singing</h2>
+  <input type="button" value="Clickity Clickity" onclick="pickRandomSinger();"/>
+<div id="singit"></div>
 
 
+<h3>What Will Be The Next Song?</h3>
+  <input type="button" value="Click Click" onclick="pickRandomSong();"/>
+<div id="nextSong"></div>
 
-  <h2>Who Will Be Singing</h2>
-  <input type="button" value="clickity clickity" onclick="pickRandomSinger();"/>
-  <div id="singit"></div>
-
-
-  <h3>What Will Be The Next Song?</h3>
-  <input type="button" value="Next Song" onclick="pickRandomSong();"/>
-  <div id="nextSong"></div>
-
+<h3>*optional*
+    <br>
+    Back Up Dancers</h3>
+<input type="button" value="Click Clickity" onclick="pickRandomDancer();"/>
+  <div id="danceMonkey"></div>
 
 
 </body>

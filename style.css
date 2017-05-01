@@ -1,0 +1,33 @@
+.body{
+  color: black;
+}
+
+h1{
+  font-family: serif;
+  font-size: 75px;
+  color: white;
+}
+
+h2{
+  ;
+  font-size: 45px;
+  font-family: serif;
+}
+
+h3{
+
+  font-size: 45px;
+  font-family: serif;
+}
+
+.cover{
+  background-attachment: fixed;
+  background-size: cover;
+  height: auto;
+  width: auto;
+}
+
+.firstpicture{
+  background-image: url("http://i.imgur.com/b2Bm19Y.png");
+  background-size: contain;
+}
