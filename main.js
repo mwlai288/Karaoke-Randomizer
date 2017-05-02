@@ -27,6 +27,7 @@ function pickRandomSong() {
   'Carly Rae Jepsen - Call Me Maybe',
   'Demi Lovato - Really Don\'t Care',
   'Destiny\'s Child - Say My Name',
+  'Goo Goo Dolls - Come To Me',
   'Hanson - MMMBop',
   'Katy Perry - Firework',
   'Lion King - Circle of Life',
@@ -41,7 +42,8 @@ function pickRandomSong() {
   'Tarzan - Son of Man',
   'Tarzan - You\'ll Be In My Heart',
   'Spice Girls - Spice Up Your Life',
-  'Spice Girls - Wannabe'];
+  'Spice Girls - Wannabe',
+  'Vance Joy - Riptide',];
   var music = nextSong[Math.floor(Math.random() * nextSong.length)];
   document.getElementById('nextSong').textContent = "The next song is " + music;
   nextSong.splice(nextSong,1);

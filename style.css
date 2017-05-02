@@ -1,33 +1,41 @@
-.body{
-  color: black;
+body{
+  background: rgb(128,128,128);
 }
 
 h1{
   font-family: serif;
-  font-size: 75px;
+  font-size: 35px;
   color: white;
 }
 
 h2{
-  ;
-  font-size: 45px;
+  color: white;
+  font-size: 35px;
   font-family: serif;
 }
 
 h3{
-
-  font-size: 45px;
+  color: white;
+  font-size: 35px;
   font-family: serif;
 }
 
 .cover{
-  background-attachment: fixed;
-  background-size: cover;
+  border-style: solid;
+  border-color: white;
+  border-width: thick;
   height: auto;
   width: auto;
+  text-align: center;
 }
 
 .firstpicture{
+  border-top-style: solid;
   background-image: url("http://i.imgur.com/b2Bm19Y.png");
+  background-size: contain;
+}
+
+.secondpicture{
+  background-image: url("http://i.imgur.com/9zNtRmy.png");
   background-size: contain;
 }
