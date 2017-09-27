@@ -1,5 +1,5 @@
 function pickANumber() {
-  var songType = ["1", "2", "3","4", "Group"];
+  var songType = ["1", "2", "3","4", "Everyone"];
   var numberopeeops = songType[Math.floor(Math.random() * songType.length)];
   document.getElementById("thisType").textContent = "Number of singers will be: " + numberopeeops;
 };
@@ -43,7 +43,7 @@ function pickRandomSong() {
   'Tarzan - You\'ll Be In My Heart',
   'Spice Girls - Spice Up Your Life',
   'Spice Girls - Wannabe',
-  'Vance Joy - Riptide',];
+  'Vance Joy - Riptide'];
   var music = nextSong[Math.floor(Math.random() * nextSong.length)];
   document.getElementById('nextSong').textContent = "The next song is " + music;
   nextSong.splice(nextSong,1);

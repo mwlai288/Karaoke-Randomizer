@@ -35,6 +35,12 @@ h3{
   background-size: contain;
 }
 
+#thisType, #singit, #nextSong, #danceMonkey {
+  color: white;
+  text-shadow: 4px 2px #060600;
+}
+
+
 .secondpicture{
   background-image: url("http://i.imgur.com/9zNtRmy.png");
   background-size: contain;
